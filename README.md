@@ -47,22 +47,25 @@ A content-based movie recommender built using **TF-IDF** (Term Frequency-Inverse
 
 ## 🏃 How to Run
 
-1.  **Navigate to the `src` directory:**
+1.  **Configure your OMDb API Key:**
+    Before running, open `config.json` and replace `"YOUR_OMDB_API_KEY"` with your actual OMDb API key.
+
+2.  **Navigate to the `src` directory:**
     ```bash
     cd src
     ```
 
-2.  **Run the preprocessing script:** This script will likely prepare your movie data for the recommendation system.
+3.  **Run the preprocessing script:** This script will likely prepare your movie data for the recommendation system.
     ```bash
     python preprocess.py
     ```
 
-3.  **Launch the Streamlit application:**
+4.  **Launch the Streamlit application:**
     ```bash
     streamlit run main.py
     ```
 
-4.  The application will open in your web browser, typically at `http://localhost:8501`.
+5.  The application will open in your web browser, typically at `http://localhost:8501`.
 
 ---
 
